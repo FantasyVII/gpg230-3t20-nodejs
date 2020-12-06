@@ -54,6 +54,6 @@ app.use('/api/v1/GPG230', router)
 
 connectToDB()
 
-app.listen(process.env.PORT, () => {
-    res.send('Hello');
+app.listen('8080', () => {
+    console.log('Hello')
 })
